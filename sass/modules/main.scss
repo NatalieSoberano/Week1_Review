@@ -1,0 +1,27 @@
+// do your imports first, so they're always avalible everywhere
+@import "_vars";
+@import "modules/_navbar";
+
+
+body {
+    color: $main-color;
+    background-color: $body-bg;
+}
+
+h1, h2, h3 {color: $heding-color;}
+
+.panel {height: 88vh;}
+
+.panel:nth-child(even) {
+    background-color: salmon;
+    color: white;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+@import "modules/_footer"
